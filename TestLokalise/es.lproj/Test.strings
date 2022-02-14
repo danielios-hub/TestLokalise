@@ -1,0 +1,10 @@
+/* 
+  Test.strings
+  TestLokalise
+
+  Created by Daniel Gallego Peralta on 14/2/22.
+  
+*/
+
+"INITIAL_TEXT" = "primer text";
+"ANOTHER_TEST" = "segundo texto";

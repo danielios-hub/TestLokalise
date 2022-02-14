@@ -13,6 +13,7 @@
 		C7423F7727BAD6A000890F45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7423F7527BAD6A000890F45 /* Main.storyboard */; };
 		C7423F7927BAD6A100890F45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7423F7827BAD6A100890F45 /* Assets.xcassets */; };
 		C7423F7C27BAD6A100890F45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7423F7A27BAD6A100890F45 /* LaunchScreen.storyboard */; };
+		C7423F8527BAD9B600890F45 /* Test.strings in Resources */ = {isa = PBXBuildFile; fileRef = C7423F8727BAD9B600890F45 /* Test.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,8 @@
 		C7423F7827BAD6A100890F45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C7423F7B27BAD6A100890F45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C7423F7D27BAD6A100890F45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7423F8627BAD9B600890F45 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Test.strings; sourceTree = "<group>"; };
+		C7423F8827BAD9C900890F45 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Test.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,7 @@
 				C7423F7827BAD6A100890F45 /* Assets.xcassets */,
 				C7423F7A27BAD6A100890F45 /* LaunchScreen.storyboard */,
 				C7423F7D27BAD6A100890F45 /* Info.plist */,
+				C7423F8727BAD9B600890F45 /* Test.strings */,
 			);
 			path = TestLokalise;
 			sourceTree = "<group>";
@@ -109,6 +113,7 @@
 			knownRegions = (
 				en,
 				Base,
+				es,
 			);
 			mainGroup = C7423F6327BAD6A000890F45;
 			productRefGroup = C7423F6D27BAD6A000890F45 /* Products */;
@@ -125,6 +130,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7423F8527BAD9B600890F45 /* Test.strings in Resources */,
 				C7423F7C27BAD6A100890F45 /* LaunchScreen.storyboard in Resources */,
 				C7423F7927BAD6A100890F45 /* Assets.xcassets in Resources */,
 				C7423F7727BAD6A000890F45 /* Main.storyboard in Resources */,
@@ -163,6 +169,15 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
+		C7423F8727BAD9B600890F45 /* Test.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7423F8627BAD9B600890F45 /* en */,
+				C7423F8827BAD9C900890F45 /* es */,
+			);
+			name = Test.strings;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -170,6 +185,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -231,6 +247,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
